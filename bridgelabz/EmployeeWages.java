@@ -4,7 +4,7 @@ public class EmployeeWages {
 public static void main(String[] args) {
 	System.out.println("Welcome to Employee Wages");
 	
-	double random = Math.random();
+	//double random = Math.random();
 	// System.out.println("random");
 	int employeeChek = (int) Math.floor(Math.random()*10) % 2;
 	System.out.println("employeeChek");
