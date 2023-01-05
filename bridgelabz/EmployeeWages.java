@@ -7,7 +7,7 @@ public static void main(String[] args) {
 
 	//double random = Math.random();
 	// System.out.println("random");
-	double employeeChek =  Math.floor(Math.random()*10) % 2;
+	double employeeChek =  (int)(Math.random()*2;
 	System.out.println("employeeChek");
 	if(employeeChek == IS_FULL_TIME) {
 		System.out.println("Employee is Present");
