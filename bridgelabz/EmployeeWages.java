@@ -142,9 +142,9 @@ public class EmployeeWages {
 			// Emp.checkEmployeeAttendence();
 			//Emp.dailyEmployeeWage();
 			// Emp.dailyEmployeePartTimeWage();
-			Emp.employeeMonthlyWage();
+			// Emp.employeeMonthlyWage();
 			 // System.out.println(Emp.switchcase());
-			//Emp.employeeMonthlyWageWhileloop();
+			Emp.employeeMonthlyWageWhileloop();
 		}
 	
 }
