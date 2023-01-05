@@ -5,8 +5,7 @@ public class EmployeeWages {
 	// UC-1------
 		void checkEmployeeAttendence() {
 			int IS_FULL_TIME = 1;
-			double empCheck = Math.floor(Math.random() * 10) % 2;
-
+			double empCheck = (int)(Math.random() * 2) ;
 			if (empCheck == IS_FULL_TIME)
 				System.out.println("Employee is Present");
 			else
@@ -141,11 +140,11 @@ public class EmployeeWages {
 		public static void main(String[] args) {
 			EmployeeWages Emp = new EmployeeWages();
 			// Emp.checkEmployeeAttendence();
-			// Emp.dailyEmployeeWage();
+			//Emp.dailyEmployeeWage();
 			// Emp.dailyEmployeePartTimeWage();
-			//Emp.employeeMonthlyWage();
-			// System.out.println(Emp.switchcase());
-			Emp.employeeMonthlyWageWhileloop();
+			Emp.employeeMonthlyWage();
+			 // System.out.println(Emp.switchcase());
+			//Emp.employeeMonthlyWageWhileloop();
 		}
 	
 }
