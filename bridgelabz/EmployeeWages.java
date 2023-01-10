@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.bridgelabz.Day3;
 import java.util.Scanner;
 //pascal code -> class,interface,enum -> Employeewages
 public class EmployeeWages {
