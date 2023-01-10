@@ -29,7 +29,7 @@ public class EmployeeWages {
 			System.out.println("Employee Wage " + employeeWage);
 		}
 
-	//UC-3----------------------------
+	//UC-3-----------------------------
 		void dailyEmployeePartTimeWage() {
 			int fullTime = 2;
 			int partTime = 1;
