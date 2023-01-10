@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.bridgelabz.Day3;
 //pascal code -> class,interface,enum -> Employeewages
 public class EmployeeWages {
 public static void main(String[] args) {
