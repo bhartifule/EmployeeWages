@@ -2,21 +2,24 @@ package com.bridgelabz;
 import java.util.Scanner;
 
 public class EmployeeWages {
-	 System.out.println("Welcome to employee wage");
+	public static void main(String[] args) {
+	System.out.println("Welcome To Employee Wage Problem");
+
      Scanner sc = new Scanner(System.in);
-     System.out.println("Enter your count of company's");
+    System.out.println("Enter your count of company's");
+     
      int company = sc.nextInt();
 
      for ( int i = 1 ; i<=company ; i++ ){
          System.out.println("Enter wage per hour ");
-        int wagePerHour = sc.nextInt();
+         int wagePerHour = sc.nextInt();
          System.out.println("Enter workingHoursPerMonth ");
          int workingHoursPerMonth = sc.nextInt();
          System.out.println("Enter workingDaysPerMonth ");
          int workingDaysPerMonth = sc .nextInt();
          wageCalculation();
      }
-
+}
  
  public static void wageCalculation(){
      int  wagePerHour ;
