@@ -23,8 +23,8 @@ public class EmployeeWages {
  
  public static void wageCalculation(){
      int  wagePerHour ;
-     int workingHoursPerMonth ;
-     int workingDaysPerMonth ;
+     int workingHoursPerMonth=0 ;
+     int workingDaysPerMonth=0 ;
      int fullDayHour = 8;
      int partTimeHour = 4;
      int isFullTime = 2;
