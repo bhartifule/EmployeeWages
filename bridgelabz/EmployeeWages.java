@@ -9,15 +9,15 @@ public class EmployeeWages {
 
      for ( int i = 1 ; i<=company ; i++ ){
          System.out.println("Enter wage per hour ");
-         wagePerHour = sc.nextInt();
+        int wagePerHour = sc.nextInt();
          System.out.println("Enter workingHoursPerMonth ");
-         workingHoursPerMonth = sc.nextInt();
+         int workingHoursPerMonth = sc.nextInt();
          System.out.println("Enter workingDaysPerMonth ");
-         workingDaysPerMonth = sc .nextInt();
+         int workingDaysPerMonth = sc .nextInt();
          wageCalculation();
      }
 
- }
+ 
  public static void wageCalculation(){
      int  wagePerHour ;
      int workingHoursPerMonth ;
