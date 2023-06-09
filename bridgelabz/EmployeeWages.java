@@ -1,7 +1,8 @@
 package com.bridgelabz;
 import java.util.Scanner;
 
-public class EmployeeWages {
+public class EmployeeWages
+{
 	  static int  wagePerHour ;
 	    static int workingHoursPerMonth ;
 	    static int workingDaysPerMonth ;
