@@ -3,7 +3,7 @@ import java.util.Scanner;
 //pascal code -> class,interface,enum -> Employeewages
 public class EmployeeWages {
 	// UC-1------
-		void checkEmployeeAttendence() {
+		void checkEmployeeAttendence( ) {
 			int IS_FULL_TIME = 1;
 			double empCheck = (int)(Math.random() * 2) ;
 			if (empCheck == IS_FULL_TIME)
