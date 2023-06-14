@@ -1,7 +1,7 @@
 package com.bridgelabz;
 import java.util.Scanner;
 
-public class EmployeeWages {
+public class EmployeeWages  {
 	static final int WAGE_PER_HOUR = 20;
     static final int FULL_DAY_HOUR = 8;
     static final int PART_TIME_HOUR = 4;
