@@ -1,7 +1,7 @@
 package com.bridgelabz.Day3;
 //pascal code -> class,interface,enum -> Employeewages
 public class EmployeeWages {
-public static void main(String[] args) {
+public static void main(String[] args) { 
 	System.out.println("Welcome to Employee Wages");
        int IS_FULL_TIME = 1;
 
