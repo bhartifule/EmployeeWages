@@ -2,7 +2,7 @@ package com.bridgelabz.Day3;
 import java.util.Scanner;
 //pascal code -> class,interface,enum -> Employeewages
 public class EmployeeWages {
-	void checkEmployeeAttendence() {
+	void checkEmployeeAttendence() { 
 		int IS_FULL_TIME = 1;
 		double empCheck = Math.floor(Math.random() * 10) % 2;
 
