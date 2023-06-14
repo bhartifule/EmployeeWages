@@ -2,7 +2,7 @@ package com.bridgelabz;
 import java.util.Scanner;
 
 public class EmployeeWages {
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
 	System.out.println("Welcome To Employee Wage Problem");
 
      Scanner sc = new Scanner(System.in);
